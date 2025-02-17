@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import os
 from openai import OpenAI
@@ -49,6 +48,7 @@ examples_language__product_filtered = examples_language_filtered[examples_langua
 
 examples_for_ai = examples_language__product_filtered[f'{language}'].sum()
 
+st.text(print(examples_for_ai))
 
 text = st.text_area(
         "Enter any additional information here:"
