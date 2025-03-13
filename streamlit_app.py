@@ -103,7 +103,7 @@ def create_email_content():
     completion = aiclient.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {"role": "system", "content": f"You are creating a {content_filter} for a Lumene, a Swedish brand."},
+            {"role": "system", "content": f"You are creating a {content_filter} for a Lumene, a Finnish brand."},
             {
                 
                 "role":"user",
